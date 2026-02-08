@@ -74,8 +74,10 @@ navigator.geolocation.getCurrentPosition(async pos => {
   // =========================
 
   const query = `
-  [out:json];
-  (
+[out:json];
+(
+...
+`;
     node["amenity"="hospital"](around:5000,${lat},${lon});
     way["amenity"="hospital"](around:5000,${lat},${lon});
   );
