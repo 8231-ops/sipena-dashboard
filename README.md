@@ -1,1 +1,0 @@
-# sipena-map
